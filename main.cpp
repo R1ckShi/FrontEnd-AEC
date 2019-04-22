@@ -211,7 +211,8 @@ int main(int argc, char *argv[])
 		cout << duration << endl;
 	}
 	cout << endl;
-
+	
+	// anti-normalization
 	for(int i = 0; i < spk_len; i++)
 		out_pcm[i] *= 32767;
 
